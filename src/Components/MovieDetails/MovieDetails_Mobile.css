@@ -1,0 +1,77 @@
+@media screen and (max-width: 425px) {
+  .showcase {
+    display: none;
+  }
+  .showcase img {
+    display: none;
+  }
+
+  .container {
+    background-color: black;
+
+    color: white;
+    z-index: 100;
+    width: 100%;
+    bottom: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  .headerSection {
+    width: 95%;
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .Poster {
+    width: 80%;
+    margin: auto;
+  }
+  .Poster > img {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+  }
+
+  .movieData {
+    width: 95vw;
+    padding: 0px;
+  }
+  .genre {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .genre-names {
+    font-size: 1rem;
+    padding: 5px;
+    background-color: gold;
+    color: black;
+    border-radius: 15px;
+  }
+
+  .summary {
+    height: auto;
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .metascoreRating {
+    display: flex;
+    align-self: center;
+    margin-right: 5%;
+  }
+
+  .rating {
+    padding: 10px;
+    background-color: gold;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 1.2rem;
+  }
+}
